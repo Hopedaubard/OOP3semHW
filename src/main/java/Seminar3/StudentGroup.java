@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.Spliterator;
 import java.util.function.Consumer;
 
-public class StudentGroup implements Iterable <Student>{
-    private List <Student> studentList;
+public class StudentGroup implements Iterable<Student> {
+    private List<Student> studentList;
 
     public List<Student> getStudentList() {
         return studentList;
